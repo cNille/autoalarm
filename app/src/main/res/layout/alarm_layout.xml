@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/alarm_linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/alarm_text"
+        android:text="Alarm turned off."
+        android:gravity="center_horizontal"
+        android:textSize="30sp"
+        android:padding="15dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="snoozeClick"
+        android:textSize="25sp"
+        android:text="Snooze 5 min"
+        android:layout_margin="10dp"
+        android:padding="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="cancelClick"
+        android:textSize="25sp"
+        android:text="Cancel"
+        android:layout_margin="10dp"
+        android:padding="20dp"/>
+
+</LinearLayout>
